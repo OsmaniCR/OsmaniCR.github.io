@@ -15,7 +15,7 @@ export function Hero() {
           <a className="button button--primary" href="#proyectos">
             Explorar proyectos <ArrowDownRight size={18} aria-hidden="true" />
           </a>
-          <a className="button button--secondary" href="mailto:osmanicasanueva@gmail.com">
+          <a className="button button--secondary" href={portfolio.emailHref} target="_blank" rel="noreferrer">
             Escribirme <Mail size={18} aria-hidden="true" />
           </a>
           <a className="icon-button" href="https://github.com/OsmaniCR" target="_blank" rel="noreferrer" aria-label="Ver GitHub de Osmani">

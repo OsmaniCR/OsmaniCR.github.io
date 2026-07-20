@@ -1,8 +1,14 @@
 import type { CaseStudy, Experience, SectionItem, SocialLink } from "../types/portfolio";
 
+const email = "osmanicasanueva@gmail.com";
+const emailHref =
+  "https://mail.google.com/mail/?view=cm&fs=1&to=osmanicasanueva%40gmail.com&su=Consulta%20desde%20tu%20portafolio&body=Hola%20Osmani%2C%0A%0ATe%20contacto%20desde%20tu%20portafolio.%20Me%20gustar%C3%ADa%20conversar%20sobre%3A%0A%0A";
+
 export const portfolio = {
   name: "Osmani Casanueva Rodríguez",
   shortName: "Osmani Casanueva",
+  email,
+  emailHref,
   role: "Ingeniero Industrial · Software Engineer",
   location: "Talca, Chile",
   headline: "Construyo sistemas que hacen avanzar operaciones reales.",
@@ -158,6 +164,10 @@ export const portfolio = {
       href: "https://www.linkedin.com/in/osmani-casanueva-rodr%C3%ADguez-776999186/",
       description: "Trayectoria y red profesional",
     },
-    { label: "Correo", href: "mailto:osmanicasanueva@gmail.com", description: "Hablemos de tu próximo proyecto" },
+    {
+      label: "Correo",
+      href: emailHref,
+      description: "Hablemos de tu próximo proyecto",
+    },
   ] satisfies SocialLink[],
 } as const;

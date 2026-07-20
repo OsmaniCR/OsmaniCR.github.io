@@ -167,8 +167,8 @@ export function ContentSections() {
           <p className="eyebrow">Contacto</p>
           <h2 id="contact-title">¿Tienes un sistema complejo por aterrizar?</h2>
           <p>Conversemos sobre el problema, el contexto y la mejor forma de convertirlo en software útil.</p>
-          <a className="contact__email" href="mailto:osmanicasanueva@gmail.com">
-            osmanicasanueva@gmail.com <ArrowUpRight size={24} aria-hidden="true" />
+          <a className="contact__email" href={portfolio.emailHref} target="_blank" rel="noreferrer">
+            {portfolio.email} <ArrowUpRight size={24} aria-hidden="true" />
           </a>
         </div>
         <div className="contact__links">
