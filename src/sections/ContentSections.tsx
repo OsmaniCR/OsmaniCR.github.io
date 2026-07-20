@@ -77,7 +77,7 @@ export function ContentSections() {
         id="proyectos"
         eyebrow="Trabajo seleccionado"
         title="Casos donde la arquitectura sirve a la operación."
-        intro="Una selección de sistemas y exploraciones técnicas. Los casos profesionales se presentan de forma anónima; los proyectos públicos enlazan a su código."
+        intro="Una selección de sistemas profesionales presentada de forma anónima. No se enlazan repositorios públicos porque varios corresponden a ejercicios técnicos, pruebas de selección o contextos con restricciones de publicación."
       >
         <div className="case-grid">
           {portfolio.caseStudies.map((study, index) => (
@@ -87,15 +87,6 @@ export function ContentSections() {
                   <span className="case-card__number">{study.number}</span>
                   <p className="case-card__eyebrow">{study.eyebrow}</p>
                 </div>
-                {study.links && (
-                  <div className="case-card__links">
-                    {study.links.map((link) => (
-                      <a href={link.href} target="_blank" rel="noreferrer" key={link.href}>
-                        {link.label} <ArrowUpRight size={15} aria-hidden="true" />
-                      </a>
-                    ))}
-                  </div>
-                )}
               </header>
               <h3>{study.title}</h3>
               <p className="case-card__summary">{study.summary}</p>

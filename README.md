@@ -49,4 +49,4 @@ Edita `src/data/portfolio.ts` para cambiar enlaces, textos, servicios, casos de 
 
 ## Privacidad
 
-Los casos de estudio están redactados de forma anónima y de alto nivel. No incluyen secretos, datos personales ni información sensible de clientes.
+Los casos de estudio están redactados de forma anónima y de alto nivel. No incluyen secretos, datos personales ni información sensible de clientes. Los repositorios públicos que corresponden a pruebas técnicas, ejercicios o contextos con restricciones de publicación no se presentan como piezas del portafolio.

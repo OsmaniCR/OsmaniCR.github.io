@@ -21,10 +21,6 @@ export type CaseStudy = {
   impact: string;
   challenges: string;
   learnings: string;
-  links?: Array<{
-    label: string;
-    href: string;
-  }>;
 };
 
 export type Experience = {
