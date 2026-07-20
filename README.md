@@ -17,6 +17,14 @@ npm install
 npm run dev
 ```
 
+Se requiere Node.js 18.18 o superior.
+
+Para abrir el proyecto en Cursor desde este directorio:
+
+```bash
+cursor .
+```
+
 ## Validación
 
 ```bash
@@ -26,7 +34,7 @@ npm run build
 
 ## Despliegue
 
-Este sitio está preparado para GitHub Pages desde la raíz del repositorio `OsmaniCR.github.io`.
+El workflow de GitHub Actions valida, compila y publica la carpeta `dist` en GitHub Pages al actualizar `main`.
 
 ## Estructura
 

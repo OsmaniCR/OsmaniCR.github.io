@@ -1,6 +1,7 @@
 export type SocialLink = {
   label: string;
   href: string;
+  description: string;
 };
 
 export type SectionItem = {
@@ -9,7 +10,10 @@ export type SectionItem = {
 };
 
 export type CaseStudy = {
+  number: string;
+  eyebrow: string;
   title: string;
+  summary: string;
   problem: string;
   solution: string;
   architecture: string;
@@ -17,4 +21,17 @@ export type CaseStudy = {
   impact: string;
   challenges: string;
   learnings: string;
+  links?: Array<{
+    label: string;
+    href: string;
+  }>;
+};
+
+export type Experience = {
+  period: string;
+  role: string;
+  organization: string;
+  location: string;
+  description: string;
+  technologies: string[];
 };

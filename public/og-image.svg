@@ -1,14 +1,22 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
-      <stop offset="0" stop-color="#08111f"/>
-      <stop offset="1" stop-color="#12233b"/>
-    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(1030 80) rotate(125) scale(520)">
+      <stop stop-color="#62e6d2" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#62e6d2" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="72" height="72" patternUnits="userSpaceOnUse">
+      <path d="M72 0H0v72" fill="none" stroke="#f1f4e9" stroke-opacity=".07"/>
+    </pattern>
   </defs>
-  <rect width="1200" height="630" fill="url(#g)"/>
-  <circle cx="980" cy="120" r="220" fill="#2dd4bf" opacity=".08"/>
-  <circle cx="110" cy="520" r="180" fill="#7c3aed" opacity=".08"/>
-  <text x="80" y="170" fill="#e8f1ff" font-family="Arial, sans-serif" font-size="56" font-weight="700">Osmani Casanueva Rodríguez</text>
-  <text x="80" y="238" fill="#93a4bf" font-family="Arial, sans-serif" font-size="30">Ingeniero Industrial y Desarrollador de Software</text>
-  <text x="80" y="320" fill="#d6e1f2" font-family="Arial, sans-serif" font-size="26">SaaS, IA, backend, frontend e infraestructura</text>
+  <rect width="1200" height="630" fill="#09100f"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <rect x="72" y="68" width="88" height="42" rx="8" fill="#cbff4a"/>
+  <text x="92" y="96" fill="#1a2306" font-family="monospace" font-size="20" font-weight="700">OC.</text>
+  <text x="72" y="188" fill="#62e6d2" font-family="monospace" font-size="20" letter-spacing="4">INGENIERÍA + SOFTWARE</text>
+  <text x="72" y="290" fill="#f1f4e9" font-family="sans-serif" font-size="68" font-weight="600">Sistemas que hacen avanzar</text>
+  <text x="72" y="372" fill="#f1f4e9" font-family="sans-serif" font-size="68" font-weight="600">operaciones reales.</text>
+  <text x="72" y="458" fill="#9ea9a1" font-family="sans-serif" font-size="29">Osmani Casanueva Rodríguez · Software Engineer</text>
+  <line x1="72" y1="520" x2="1128" y2="520" stroke="#f1f4e9" stroke-opacity=".18"/>
+  <text x="72" y="568" fill="#cbff4a" font-family="monospace" font-size="20">SAAS / BACKEND / HEALTHTECH / IA APLICADA</text>
 </svg>

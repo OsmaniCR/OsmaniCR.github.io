@@ -1,5 +1,9 @@
 import type { PropsWithChildren } from "react";
 
-export function Card({ children }: PropsWithChildren) {
-  return <article className="card">{children}</article>;
+type CardProps = PropsWithChildren<{
+  className?: string;
+}>;
+
+export function Card({ children, className = "" }: CardProps) {
+  return <article className={`card ${className}`.trim()}>{children}</article>;
 }
