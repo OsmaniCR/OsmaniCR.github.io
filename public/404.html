@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="refresh" content="3; url=/" />
+    <meta name="theme-color" content="#09100f" />
+    <title>Página no encontrada | Osmani Casanueva</title>
+    <style>
+      body { min-height: 100vh; display: grid; place-items: center; margin: 0; padding: 24px; color: #f1f4e9; background: #09100f; font-family: sans-serif; }
+      main { max-width: 620px; }
+      span { color: #cbff4a; font-family: monospace; }
+      h1 { margin: 16px 0; font-size: clamp(3rem, 10vw, 7rem); line-height: .95; }
+      p { color: #9ea9a1; line-height: 1.6; }
+      a { display: inline-block; margin-top: 18px; padding: 12px 16px; color: #1a2306; background: #cbff4a; border-radius: 8px; font-weight: 700; text-decoration: none; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <span>ERROR / 404</span>
+      <h1>Esta ruta no existe.</h1>
+      <p>Volverás al portafolio en unos segundos.</p>
+      <a href="/">Ir al inicio ahora</a>
+    </main>
+    <script>
+      setTimeout(function () { window.location.replace("/"); }, 3000);
+    </script>
+  </body>
+</html>
